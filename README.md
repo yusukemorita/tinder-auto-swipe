@@ -9,5 +9,5 @@ Simple docker image that
 
 ```
 docker build -t tinder_swiper .
-docker run -e "email=YOUR_FACEBOOK_EMAIL" -e "password=YOUR_FACEBOOK_PASSWORD" tinder_swiper
+docker run -e "email=YOUR_FACEBOOK_EMAIL" -e "password=YOUR_FACEBOOK_PASSWORD" -e "webhook_url=YOUR_SLACK_WEBHOOK_URL" tinder_swiper
 ```
